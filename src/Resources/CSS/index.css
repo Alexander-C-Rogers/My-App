@@ -4,6 +4,10 @@ body {
     margin: 20px;
 }
 
+ol, ul {
+    padding-left: 30px;
+}
+
 /*class selectors*/
 .square {
     background: #fff;
@@ -28,4 +32,17 @@ body {
     clear: both;
     content: "";
     display: table;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 20px;
 }

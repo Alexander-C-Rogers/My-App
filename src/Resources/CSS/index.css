@@ -1,8 +1,10 @@
+/*Element selectors*/
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
 }
 
+/*class selectors*/
 .square {
     background: #fff;
     border: 1px solid #999;
@@ -20,4 +22,10 @@ body {
 
 .square:focus {
     outline: none;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
 }
